@@ -1,3 +1,32 @@
-title: 张三的技术专栏
-description: 资深软件工程师，专注后端开发、系统架构与云原生技术
-theme: jekyll-theme-cayman
+title: 张三
+tagline: 一个持续的公共写作者
+description: >-
+  思考这个时代的结构里公共如何可能，个体如何构筑自我。
+  不是评论员，不是知识博主。只是一个写作者，在找还值得认真对待的东西。
+url: "https://holonpress.github.io"
+baseurl: "/author-zhang"
+author:
+  name: 张三
+  email: holonpress@gmail.com
+
+# Blog settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Post defaults
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+
+# RSS
+feed:
+  posts_limit: 20
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Tokyo
