@@ -53,6 +53,8 @@ collections:
     output: true
     sort_by: order
 
+future: true
+
 sass:
   style: compressed
 
