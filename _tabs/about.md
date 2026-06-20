@@ -1,7 +1,6 @@
 ---
-layout: page
-title: 关于
-permalink: /about/
+icon: fas fa-info-circle
+order: 5
 ---
 
 张三是一个持续的公共写作者。

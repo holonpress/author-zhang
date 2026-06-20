@@ -1,3 +1,6 @@
+# Chirpy Blog Configuration
+lang: zh-CN
+timezone: Asia/Tokyo
 title: 张三
 tagline: 一个持续的公共写作者
 description: >-
@@ -5,28 +8,59 @@ description: >-
   不是评论员，不是知识博主。只是一个写作者，在找还值得认真对待的东西。
 url: "https://holonpress.github.io"
 baseurl: "/author-zhang"
-author:
+
+github:
+  username: holonpress
+
+# Theme
+theme: jekyll-theme-chirpy
+
+# Navigation tabs
+tabs:
+  - title: 文章
+    icon: fas fa-stream
+    url: /
+  - title: 分类
+    icon: fas fa-folder
+    url: /categories/
+  - title: 标签
+    icon: fas fa-tags
+    url: /tags/
+  - title: 归档
+    icon: fas fa-archive
+    url: /archives/
+  - title: 关于
+    icon: fas fa-info-circle
+    url: /about/
+
+# Post settings
+paginate: 10
+permalink: /posts/:title/
+
+# Avatar
+avatar: /assets/img/avatars/default.png
+
+# Social
+social:
   name: 张三
-  email: holonpress@gmail.com
+  links:
+    - https://github.com/holonpress/author-zhang
 
-# Blog settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Post defaults
-defaults:
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-
-# RSS
-feed:
-  posts_limit: 20
-
-# Build settings
+# Build
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
-timezone: Asia/Tokyo
+highlighter: rouge
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - LICENSE
+  - README.md
+  - memory/
+  - knowledge/
+  - skills/
+  - articles/
+  - _drafts/
+  - _research/
