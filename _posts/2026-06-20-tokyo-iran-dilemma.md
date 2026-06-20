@@ -107,3 +107,4 @@ authors: [张三]
 8. "Japan's Energy Security in the Middle East", Institute of Energy Economics, Japan (IEEJ), 2025
 9. Reuters, "Japan considers resuming Iranian oil imports", 2025
 10. "The Impact of U.S. Sanctions on Japan's Trade with Iran", Japan External Trade Organization (JETRO), periodic reports
+
