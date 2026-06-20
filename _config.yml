@@ -1,8 +1,7 @@
-# The Site Configuration for Chirpy
-# For more details, visit: https://chirpy.cotes.page/posts/getting-started/
-
+theme: jekyll-theme-chirpy
 lang: zh-CN
 timezone: Asia/Tokyo
+
 title: 张三
 tagline: 一个持续的公共写作者
 description: >-
@@ -13,52 +12,69 @@ baseurl: "/author-zhang"
 github:
   username: holonpress
 
-theme: jekyll-theme-chirpy
-
-avatar: /assets/img/avatars/default.png
-
 social:
   name: 张三
+  email: holonpress@gmail.com
   links:
     - https://github.com/holonpress/author-zhang
 
-# ── 文章 permalink ──
-permalink: /posts/:title/
+avatar: /assets/img/avatars/default.png
 
-# ── 分页 ──
+toc: true
+
 paginate: 10
 
-# ── 语法高亮 ──
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
-
-# ── Tab 集合 ──
-collections:
-  tabs:
-    output: true
-    sort_by: order
-
+# ── 标准的 post permalink：只用英文 slug ──
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
+      comments: false
+      toc: true
       permalink: /posts/:title/
-      authors: [张三]
   - scope:
-      path: _tabs
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
     values:
       layout: page
+      permalink: /:title/
 
-# ── 排除（不公开的 agent 文件）──
+kramdown:
+  syntax_highlighter: rouge
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+sass:
+  style: compressed
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
   - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
   - memory/
   - knowledge/
   - skills/

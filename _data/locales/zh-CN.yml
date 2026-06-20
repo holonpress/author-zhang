@@ -1,21 +1,32 @@
-zh-CN:
-  tabs:
-    home: 首页
-    categories: 分类
-    tags: 标签
-    archives: 归档
-    about: 关于
-  panel:
-    lastmod: 最近更新
-    trending_tags: 热门标签
-  post:
-    published: 发表于
-    author: 作者
-    read_time_prefix: 
-    read_time_suffix: 分钟阅读
-    word_count: 字
-  search:
-    placeholder: 搜索...
-    no_results: 搜索结果为空
-  footer:
-    license: '保留部分权利。'
+# Chinese locale for Chirpy
+home:
+  heading: 张三
+  subheading: 持续公共写作
+
+tabs:
+  categories: 分类
+  tags: 标签
+  archives: 归档
+  about: 关于
+
+panel:
+  lastmod: 最近更新
+  trending_tags: 热门标签
+  toc: 目录
+
+post:
+  published: 发表于
+  modified: 更新于
+  author: 作者
+  read_time_prefix:
+  read_time_suffix: 分钟阅读
+  word_count: 字
+  related_posts: 相关文章
+
+search:
+  placeholder: 搜索
+  no_results: 没有找到相关文章
+
+footer:
+  license: 保留部分权利
+  theme: 主题

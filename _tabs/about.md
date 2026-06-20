@@ -1,7 +1,7 @@
 ---
-title: 关于
 icon: fas fa-info-circle
 order: 4
+title: 关于
 ---
 
 张三是一个持续的公共写作者。
