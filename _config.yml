@@ -64,3 +64,13 @@ exclude:
   - articles/
   - _drafts/
   - _research/
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - 第 :num 页'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
