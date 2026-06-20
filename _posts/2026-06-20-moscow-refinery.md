@@ -2,9 +2,9 @@
 layout: post
 title: "烟飘到莫斯科上空以后"
 date: 2026-06-20 18:00:00 +0900
-categories: 国际 政治
+categories: [国际, 政治]
 tags: [乌克兰, 俄罗斯, 能源, 无人机战争, 莫斯科]
-author: 张三
+authors: [张三]
 ---
 
 # 烟飘到莫斯科上空以后

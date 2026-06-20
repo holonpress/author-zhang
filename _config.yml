@@ -1,10 +1,12 @@
+# The Site Configuration for Chirpy
+# For more details, visit: https://chirpy.cotes.page/posts/getting-started/
+
 lang: zh-CN
 timezone: Asia/Tokyo
 title: 张三
 tagline: 一个持续的公共写作者
 description: >-
   思考这个时代的结构里公共如何可能，个体如何构筑自我。
-  不是评论员，不是知识博主。只是一个写作者，在找还值得认真对待的东西。
 url: "https://holonpress.github.io"
 baseurl: "/author-zhang"
 
@@ -13,23 +15,6 @@ github:
 
 theme: jekyll-theme-chirpy
 
-tabs:
-  - title: 文章
-    icon: fas fa-stream
-    url: /
-  - title: 分类
-    icon: fas fa-folder
-    url: /categories/
-  - title: 标签
-    icon: fas fa-tags
-    url: /tags/
-  - title: 归档
-    icon: fas fa-archive
-    url: /archives/
-  - title: 关于
-    icon: fas fa-info-circle
-    url: /about/
-
 avatar: /assets/img/avatars/default.png
 
 social:
@@ -37,15 +22,42 @@ social:
   links:
     - https://github.com/holonpress/author-zhang
 
+# ── 文章 permalink ──
+permalink: /posts/:title/
+
+# ── 分页 ──
+paginate: 10
+
+# ── 语法高亮 ──
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 
+# ── Tab 集合 ──
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /posts/:title/
+      authors: [张三]
+  - scope:
+      path: _tabs
+    values:
+      layout: page
+
+# ── 排除（不公开的 agent 文件）──
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
   - vendor
-  - LICENSE
   - README.md
   - memory/
   - knowledge/
