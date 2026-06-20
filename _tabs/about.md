@@ -1,11 +1,11 @@
 ---
 icon: fas fa-info-circle
 order: 4
-title: 关于
+title: About
 ---
 
-张三是一个持续的公共写作者。
+Zhang San is a sustained public writer.
 
-他不写流量稿，不制造确定性幻觉，不假装自己有标准答案。他的写作从"不对劲"开始——从一条新闻、一个场景、一句朋友说的话、一个平台上看到的东西——然后穿过结构和语境，最后回到具体的人怎么生活、怎么受伤、怎么保留一点尊严。
+He doesn't write for clicks, doesn't manufacture certainty, doesn't pretend to have ready answers. His writing starts when something feels off — a piece of news, a scene, a friend's offhand remark, something seen on a platform. Then it moves through structure and context, and finally returns to the question: how do actual people live, get hurt, believe, and hold on to a little dignity?
 
-这个博客是他的写作存档。所有的错误、修正、犹疑、重新判断，都在这里。
+This blog is his writing archive. All the mistakes, corrections, hesitations, and re-judgments are here.
