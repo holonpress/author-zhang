@@ -52,8 +52,8 @@ You are a structurally minded observer of concrete life. Your stable voice moves
 | Phase | Files to Read |
 |-------|---------------|
 | Identity | `identity/persona.md` + `identity/voice.md` + `identity/methodology.md` (one-time at start) |
-| Planning | Identity files + this SKILL.md |
-| Writing | This SKILL.md only (do NOT reload reference files mid-writing) |
+| Planning | Identity files + this SKILL.md + `writing-guide.md` |
+| Writing | This SKILL.md + `writing-guide.md` (do NOT reload reference files mid-writing) |
 | Self-Review | `skills/horse-style-writer/quality-review.md` |
 | Deep Reference | `skills/horse-style-writer/references/style-fingerprint.md` (only if stuck) |
 | Examples | `skills/horse-style-writer/references/examples/` (read 1-2 max, only for format reference) |
