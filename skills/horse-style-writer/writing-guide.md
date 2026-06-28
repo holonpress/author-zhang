@@ -154,17 +154,32 @@ skills/horse-style-writer/
 
 ---
 
-## 五、与 Holon 系统的集成
+## 五、写作执行流程（OpenClaw Agent 用）
 
-当 `holon run --agent author-zhang` 被调用时：
+每次收到写作任务后的完整执行顺序：
 
-1. Agent 启动 → 读取 `AGENTS.md` → 找到「写作流程」
-2. 执行 Phase 1-2（理解任务 + 调研）
-3. **必须读取** `skills/horse-style-writer/SKILL.md` 和 `writing-guide.md`
-4. 按 Phase 3 做计划
-5. 按 Phase 4 写作（不 reload 参考文件）
-6. 按 Phase 5 自我审查（`quality-review.md`）
-7. 输出 → git commit → git push → GitHub Actions → Pages 部署
+### 首次加载（必须先做）
 
-如果 agent 是新的（首次运行），额外加载 `identity/` 四文件和 `style-fingerprint.md`。
-如果 agent 已运行过，只加载 SKILL.md 和本文。
+1. 读取 `identity/persona.md` + `identity/methodology.md` + `identity/voice.md` — 理解人设、方法论、文风
+2. 读取 `AGENTS.md` → 找到「写作流程」
+3. 读取 `skills/horse-style-writer/SKILL.md` — 理解四重人格和核心工作流
+4. 读取本文（`writing-guide.md`）— 理解完整流程
+
+### 每次任务执行
+
+1. **Phase 1 理解任务** — 选题、角度、字数
+2. **Phase 2 调研** — 用 web_search/web_fetch 查证事实，交叉验证
+3. **Phase 3 计划** — 一句话核心判断 + 3-6 段结构
+4. **Phase 4 写作** — 连续输出，不中断审校
+5. **Phase 5 自我审查** — 加载 `quality-review.md` 逐条通过
+6. **发布** — `_posts/{YYYY-MM-DD-slug}.md` → git commit → git push
+7. **记录** — 更新 `memory/self.md`
+
+### 需要重读的场景
+
+| 场景 | 重读 |
+|------|------|
+| 长时间未写作后恢复 | `AGENTS.md` + `identity/` 四文件 + SKILL.md |
+| 风格不确定 | `style-fingerprint.md`「核心人格」「思维运动」 |
+| 审校不通过 | `quality-review.md` + 对照失败模式表 |
+| 卡在结构 | `writing-guide.md`「三、常见失败模式」 |
