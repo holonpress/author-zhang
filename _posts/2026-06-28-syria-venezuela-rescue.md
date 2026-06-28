@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "当被救者伸出手——叙利亚救援队在委内瑞拉"
-date: 2026-07-01
-category: 深度随笔
-tags: [叙利亚, 委内瑞拉, 地震, 国际救援, 南南合作]
+date: 2026-06-28 09:55:00 +0900
+categories: [国际, 人道, 随笔]
+tags: [叙利亚, 委内瑞拉, 地震, 国际救援, 人道主义]
+authors: [张三]
 ---
 
 # 当被救者伸出手——叙利亚救援队在委内瑞拉
@@ -12,7 +13,7 @@ tags: [叙利亚, 委内瑞拉, 地震, 国际救援, 南南合作]
 
 这不是送物资出去——叙利亚没什么物资可以送了。这是送人出去。15个在废墟里摸爬了十五年的人，去帮另一个国家的废墟。
 
-四天前，委内瑞拉西北部发生7.2级和7.5级双震，间隔39秒。死亡人数最终停在1,430，还有数千人失踪。44支国际救援队陆续抵达，大多数来自拉美和欧洲。叙利亚的队伍是这里面最特殊的一支——不是因为他们的技术有多先进，而是因为，按这个世界的叙事逻辑，他们本应该是被救援的一方。
+四天前，委内瑞拉西北部发生7.2级和7.5级双震，间隔39秒。截至27日，至少920人确认死亡、超过4,500人受伤、5万多人失踪——美国地质调查局的预测模型认为最终死亡人数可能超过十万人。44支国际救援队陆续抵达，大多数来自拉美和欧洲。叙利亚的队伍是这里面最特殊的一支——不是因为他们的技术有多先进，而是因为，按这个世界的叙事逻辑，他们本应该是被救援的一方。
 
 ---
 
@@ -80,4 +81,17 @@ tags: [叙利亚, 委内瑞拉, 地震, 国际救援, 南南合作]
 
 废墟之间有一根脆弱的线。叙利亚和委内瑞拉隔着整个大西洋，但那根线在6月27日被拉紧了。在剩下的碎片被清完、救援队离开之后，它可能仍然在那里——不松不紧地绷着，等着下一次有人需要伸出手。
 
-*这篇文章基于2026年6月27日叙利亚向委内瑞拉派遣15人救援队的事实。参考来源包括：UN OCHA Situation Report No.3 (Venezuela Earthquake, June 2026)、叙利亚阿拉伯通讯社(SANA)报道、委内瑞拉民防部门公告。事实层面已交叉核对，但救援人员的个人经历部分包含基于公开信息的合理推演。*
+---
+
+**主要信息来源 / Sources：**
+
+1. [2026 Venezuela earthquakes — Wikipedia](https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes) — M7.2+M7.5 双震数据、伤亡人数、震源机制
+2. [Syrian rescue team departs for Venezuela to help earthquake victims — Arab News / SANA](https://www.arabnews.pk/node/2648816/middle-east) — 叙利亚15人搜救专家首次向境外派遣，与卡塔尔 Lekhwiya 合作
+3. [International rescue teams mobilize to aid earthquake recovery in Venezuela — Deseret News / AP](https://www.deseret.com/u-s-world/2026/06/26/destruction-from-earthquakes-in-venezuela-death-count-rises) — 25国约1,000名救援人员部署，西班牙/德国/美国VA-TF1和LA Fire Dept响应
+4. [International aid heads to Venezuela after deadly earthquake — Reuters](https://www.reuters.com/world/americas/international-aid-heads-venezuela-after-deadly-earthquake-2026-06-25) — 多米尼加共和国首批国际救援队抵达
+5. [Death toll rises as Venezuela faces doublet earthquake disaster — CNN](https://www.cnn.com/2026/06/24/americas/venezuela-earthquake-latam-intl) — 加拉加斯与拉瓜伊拉灾情纪实
+6. [IFRC Venezuela Earthquakes Emergency Appeal — ReliefWeb](https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-earthquakes-ifrc-launches-emergency-appeal-assist-300000-people-and-dispatches-first-17-tonnes-humanitarian-cargo) — 红十字会紧急募捐30万人，首批17吨物资出发
+7. [Syrian Arab Republic 2026 Humanitarian Needs and Response Plan — ReliefWeb / OCHA](https://reliefweb.int/report/syrian-arab-republic/syrian-arab-republic-2026-humanitarian-needs-and-response-plan-april-2026) — 叙利亚2026年人道需求概况：16.5M人需援助
+8. [Timeline of the Syrian Civil War — Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_the_Syrian_civil_war) — 叙利亚内战全程时间线：2011年抗议→2024年12月阿萨德政权倒台
+9. [History and evolution of humanitarian aid](https://saludeverywhere.com/en/humanitarian-aid-and-international-development/history-and-evolution-of-humanitarian-aid/) — 从亨利·杜南（1859）到联合国体系的人道主义演变史
+10. [International Civil Defence Organisation (ICDO) — History](https://icdo.org/about-icdo/history.html) — 国际民防组织（1931→1972成为政府间组织）历史
