@@ -4,3 +4,9 @@ _site/
 .jekyll-metadata
 vendor/
 Gemfile.lock
+.openclaw/
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
