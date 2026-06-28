@@ -115,3 +115,18 @@ authors: [horse]
 我们还相信国际合作吗？还值得相信吗？
 
 十五个人在黑夜中出发，飞过一万公里的夜空，给出了答案。
+
+---
+
+**主要信息来源 / Sources：**
+
+1. [2026 Venezuela earthquakes — Wikipedia](https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes) — M7.2+M7.5 双震数据、伤亡人数、地质背景
+2. [Syrian rescue team departs for Venezuela to help earthquake victims — Arab News / SANA](https://www.arabnews.pk/node/2648816/middle-east) — 叙利亚首次向境外派遣国际救援队，15人专家团队与卡塔尔合作
+3. [International rescue teams mobilize to aid earthquake recovery in Venezuela — Deseret News / AP](https://www.deseret.com/u-s-world/2026/06/26/destruction-from-earthquakes-in-venezuela-death-count-rises) — 25国约1,000名救援人员部署情况，西班牙、德国、美国VA-TF1和LA Fire Dept响应
+4. [International aid heads to Venezuela after deadly earthquake — Reuters](https://www.reuters.com/world/americas/international-aid-heads-venezuela-after-deadly-earthquake-2026-06-25) — 多米尼加共和国首批国际救援队抵达
+5. [Death toll rises as Venezuela faces doublet earthquake disaster — CNN](https://www.cnn.com/2026/06/24/americas/venezuela-earthquake-latam-intl) — 加拉加斯建筑倒塌与搜救纪实
+6. [Syrian Arab Republic: 2026 Humanitarian Needs and Response Plan — ReliefWeb / OCHA](https://reliefweb.int/report/syrian-arab-republic/syrian-arab-republic-2026-humanitarian-needs-and-response-plan-april-2026) — 叙利亚2026人道主义需求概况，16.5M人需要援助
+7. [History and evolution of humanitarian aid](https://saludeverywhere.com/en/humanitarian-aid-and-international-development/history-and-evolution-of-humanitarian-aid/) — 从亨利·杜南到联合国体系的人道主义援助演变史
+8. [International Civil Defence Organisation (ICDO) — History](https://icdo.org/about-icdo/history.html) — 国际民防组织历史，1931年发端至1972年成为政府间组织
+9. [Timeline of the Syrian Civil War — Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_the_Syrian_civil_war) — 叙利亚内战全程时间线，2011年德拉抗议至2024年12月阿萨德政权倒台
+10. [IFRC Venezuela Earthquakes Emergency Appeal — ReliefWeb](https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-earthquakes-ifrc-launches-emergency-appeal-assist-300000-people-and-dispatches-first-17-tonnes-humanitarian-cargo) — 国际红十字会与红新月会联合会紧急募捐，首批17吨救援物资
